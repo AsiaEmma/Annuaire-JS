@@ -1,6 +1,6 @@
 # Annuaire-JS
 
-Description : 
+ ##Description : 
 
 Ce projet est une application web simple pour gérer un carnet d'adresses. Il permet d'ajouter et supprimer des contacts.
 L'interface utilisateur est élégante et utilise des icônes Font Awesome.
@@ -29,21 +29,21 @@ script.js : Le fichier JavaScript pour la gestion des événements et des intera
 
 ##Explications des fichiers :
 
-###index.html :
+index.html :
 
 Ce fichier contient la structure de base de l'application. Voici quelques sections importantes :
 Ajout de contact : Un formulaire pour ajouter un nouveau contact.
 Liste des contacts : Une liste qui affiche les contacts ajoutés.
 
-###style.css :
+style.css :
 
 Ce fichier contient les styles pour l'application, y compris les styles pour les boutons, les formulaires et les animations.
 
-###script.js :
+script.js :
 
 Ce fichier gère les interactions utilisateur, telles que l'ajout de contacts, la recherche, le tri, et la gestion des paramètres.
 
-###Utilisation :
+Utilisation :
 
 Ajouter un contact :
 
