@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Address book</title>
+</head>
+<body>
+<img class="liane" src="liane.png">
+<div class="title">Address book</div>
+<div class="contact">Contact</div>
+<div class="information"></div>
+<button id="plus" class="plus" title="Ajouter un contact" onclick="bouton()"><i class="fas fa-plus"></i></button>
+<button id="trash" class="trash" title="Supprimer un contact"><i class="fas solid fa-bomb"></i></button>
+<div class="all" style="display:none;">
+    <label for="civility-select">Civility :</label>
+    <select name="civility-select" id="civility-select">
+        <option value="">Choose a civility</option>
+        <option value="miss">Miss</option>
+        <option value="mister">Mister</option>
+        <option value="madam">Madam</option>
+    </select><br>
+    <label for="name-input">Name :</label>
+    <input name="name-input" id="name-input"><br>
+    <label for="lastname-input">Last name :</label>
+    <input name="lastname-input" id="lastname-input"><br>
+    <label for="number-input">Number :</label>
+    <input name="number-input" id="number-input"><br>
+    <button class="enter" title="Ajouter un contact"><i class="fa fa-check"></i></button>
+</div>
+<ul id="liste-utilisateur"></ul>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

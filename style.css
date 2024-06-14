@@ -1,0 +1,46 @@
+
+body{
+    background-color: #d9a146;
+    margin:20px;
+
+}
+
+.title{
+   text-align: center;
+    font-size: 340%;
+    color: white;
+}
+.contact{
+    text-align: left;
+    color:white;
+    font-size:250%;
+    margin-bottom: 20px;
+}
+
+.plus{
+    width:3%;
+    font-size: 300%;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.trash{
+    height:6%;
+    width:4%;
+    font-size: 300%;
+    cursor: pointer;
+
+}
+.all{
+    text-align: center;
+    background-repeat: no-repeat;
+    border-image: url("liane.png");
+    position: relative;
+    top: 80px;
+}
+
+.liane {
+    position: fixed;
+    left: 34%;
+    top: 10%;
+}
